@@ -11,7 +11,7 @@ class Success<T> extends Result<T>{
   List<Object?> get props => [value];
 }
 
-class Error extends Result<String>{
+class Error<T> extends Result<T>{
   final String reason;
 
   Error({this.reason = ""});
