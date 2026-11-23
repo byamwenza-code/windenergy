@@ -12,7 +12,7 @@ class TurbineRepositoryImpl extends TurbineRepository{
   }
 
   @override
-  FutureResult<dynamic> deleteTurbine({int turbineId = 0}) {
+  FutureResult deleteTurbine({int turbineId = 0}) {
     // TODO: implement deleteTurbine
     throw UnimplementedError();
   }
@@ -36,7 +36,7 @@ class TurbineRepositoryImpl extends TurbineRepository{
   }
 
   @override
-  FutureResult<dynamic> readTurbineActivation() {
+  FutureResult readTurbineActivation() {
     // TODO: implement readTurbineActivation
     throw UnimplementedError();
   }
@@ -48,7 +48,7 @@ class TurbineRepositoryImpl extends TurbineRepository{
   }
 
   @override
-  FutureResult<dynamic> updateTurbine({int turbineId = 0, String customName = "", Position position = const Position()}) {
+  FutureResult updateTurbine({int turbineId = 0, String customName = "", Position position = const Position()}) {
     // TODO: implement updateTurbine
     throw UnimplementedError();
   }
